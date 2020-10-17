@@ -44,13 +44,6 @@ import uuid
 import webbrowser
 
 
-  
-
-
-  
-
-
-
 # Python optional dependency compatibility layer
 try:
     import readline
@@ -59,7 +52,7 @@ except ImportError:
 
 try:
     import setproctitle
-    setproctitle.setproctitle('googler')
+    setproctitle.setproctitle( 'googler')
 except (ImportError, Exception):
     pass
 
