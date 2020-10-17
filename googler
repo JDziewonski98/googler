@@ -52,8 +52,8 @@ except ImportError:
 
 try:
     import setproctitle
-    setproctitle.setproctitle( 'googler')
-except (ImportError, Exception): pass
+    setproctitle.setproctitle( 'googler'       )
+except (ImportError, Exception):  pass
 
 from typing import (
     Any,
